@@ -1246,6 +1246,12 @@ input[type="radio"] + label:before {
     .image.main img {
       width: 100%; }
 
+#about-header {
+  width: 50%;
+  height: auto;
+}
+
+
 a.image {
   overflow: hidden; }
   a.image img {
