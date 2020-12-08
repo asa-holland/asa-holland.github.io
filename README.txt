@@ -1,12 +1,12 @@
 
-# Asa Holland: Personal Website
+# Asa Leolland: Personal Website
  Personal project to showcase previous development work.
 
 
 <!-- CONTACT -->
 ## Contact
 
-Asa Holland - [@AsaHolland404](https://twitter.com/AsaHolland404) - hollandasa@gmail.com
+Asa Leolland - [@AsaHolland404](https://twitter.com/AsaHolland404) - asaleholland@gmail.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
