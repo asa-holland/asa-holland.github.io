@@ -1,5 +1,5 @@
 
-# Asa Leolland: Personal Website
+# Asa LeHolland: Personal Website
  Personal project to showcase previous development work.
 
 https://asa-leholland.github.io/
@@ -7,7 +7,7 @@ https://asa-leholland.github.io/
 <!-- CONTACT -->
 ## Contact
 
-Asa Leolland - [@AsaHolland404](https://twitter.com/AsaHolland404) - asaleholland@gmail.com
+Asa LeHolland - [@AsaHolland404](https://twitter.com/AsaHolland404) - asaleholland@gmail.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
