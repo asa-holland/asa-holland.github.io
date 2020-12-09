@@ -7,7 +7,7 @@ https://asa-leholland.github.io/
 <!-- CONTACT -->
 ## Contact
 
-Asa LeHolland - [@AsaHolland404](https://twitter.com/AsaHolland404) - asaleholland@gmail.com
+Asa LeHolland - asaleholland@gmail.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
