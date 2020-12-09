@@ -1307,6 +1307,7 @@ ul.actions {
   display: flex;
   cursor: default;
   list-style: none;
+  margin: auto;
   margin-left: -1em;
   padding-left: 0; }
   ul.actions li {
