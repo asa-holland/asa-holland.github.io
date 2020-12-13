@@ -98,6 +98,29 @@ content="Home page for the personal portfolio site for developer Asa LeHolland."
 											<ul class="actions">
 												<li><a href="project.html" class="button">MORE PROJECTS</a></li>
 											</ul>
+
+											<!-- Contact Form -->
+											<form name='input' method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScxG-Nqii00O_oUyZvRE7aTBJrnzeiyH8GGR4jPl8v8upgq8Q/viewform?usp=pp_url">
+											<!-- action="https://docs.google.com/forms/d/e/1FAIpQLScxG-Nqii00O_oUyZvRE7aTBJrnzeiyH8GGR4jPl8v8upgq8Q/viewform?usp=pp_url&entry.290558758=fillerName&entry.1450105380=fillerEmail@gmail.com&entry.1557598216=fillerMessage" -->
+												<!-- Name: <input type="text" name="Name" placeholder="Your name" required>
+												Email: <input type="email" name="_replyto" placeholder="Your email" required>
+												Message: <textarea name="message" placeholder="Type your message" required></textarea>
+												<input type="submit" name="Send">
+												<input type="hidden" name="_subject" value="Message on Personal Website">
+												<input type="hidden" name="_next" value="https://asa-leholland.github.io/thanks.html">					 -->		
+												<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1-32rAHEYfZzaWkw9G6GzyWxSvhaVgKpvnIBAYASLkrU/formResponse?edit_requested=true" target="hidden_iframe" onsubmit="submitted=true;">
+													Name:
+													<input type="text" name="entry.290558758" id="entry.290558758" placeholder="Your name" required>
+													Email:
+													<input type="email" name="entry.1450105380" id="entry.1450105380" placeholder="Your email" required>
+													Message:
+													<textarea name="entry.1557598216" id="entry.1557598216" placeholder="Type your message" required></textarea>
+													<input type="submit" value="Submit" name="Send">
+												</form>
+
+												<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+											</form>
 										</article>
 									</div>
 									
@@ -125,16 +148,8 @@ content="Home page for the personal portfolio site for developer Asa LeHolland."
 									<ul>
 										<li><a href="index.html">Home</a></li>
 										<li><a href="about.html">About Asa</a></li>
-										<!-- <li>
-											<span class="opener">Highlighted Projects</span>
-											<ul>
-												<li><a href="#">Preliminary Results Email Drafter</a></li>
-												<li><a href="#">GRE Calculator</a></li>
-												<li><a href="#">Gess</a></li>
-											</ul>
-										</li> -->
-										<li><a href="projects.html">More Projects</a></li>
-										<li><a href="resume.html">My Resume</a></li>
+										<li><a href="projects.html">Projects</a></li>
+										<li><a href="resume.html">Resume</a></li>
 									</ul>
 								</nav>
 
