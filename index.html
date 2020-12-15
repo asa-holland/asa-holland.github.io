@@ -107,13 +107,6 @@
 				<div id="sidebar">
 					<div class="inner">
 
-						<!-- Search -->
-						<section id="search" class="alt">
-							<form method="post" action="#">
-								<input type="text" name="query" id="query" placeholder="Search" />
-							</form>
-						</section>
-
 						<!-- Menu -->
 						<nav id="menu">
 							<header class="major">
@@ -138,13 +131,13 @@
 							</ul>
 							<h2>Or just leave me a message:</h2>
 							<!-- Contact Form -->
-							<form name='input' method="POST" action="https://formspree.io/f/mqkgyggv">
-								Name: <br>
-								<input type="text" name="Name" placeholder="Your name" required>
-								Email: <br>
-								<input type="email" name="_replyto" placeholder="Your email" required>
-								Message: <br>
-								<textarea name="message" placeholder="Type your message" required></textarea>
+						<form name='input' method="POST" action="https://formspree.io/f/mqkgyggv">
+							<label for="Name">Name: <br></label>
+							<input type="text" name="Name" placeholder="Your name" required>
+							<label for="_replyto">Email: <br></label>
+							<input type="email" name="_replyto" placeholder="Your email" required>
+							<label for="message">Message: <br></label>
+							<textarea name="message" placeholder="Type your message" required></textarea>
 
 								<ul class="actions message">
 									<input type="submit" name="submit">
