@@ -2312,3 +2312,12 @@ button,
   margin-top: 2em;
   padding-top: 2em;
 }
+
+
+.halved span {
+  display: inline-block;
+}
+
+.halved img {
+    width: 50%;
+}
