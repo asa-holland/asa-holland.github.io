@@ -19,6 +19,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 	    <link rel="stylesheet" href="assets/css/navbar.css">
+	    <link rel="stylesheet" href="assets/css/project_filter.css">
 <!--     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> -->
 </head>
 <body class="is-preload">
@@ -57,6 +58,95 @@
 <section id="projects">
 	<div class="row section-intro">
 		<div>Projects</div>
+		<div id="myBtnContainer">
+		  <button class="btn-sm active" onclick="filterSelection('all')"> Show All</button>
+		  <button class="btn-sm" onclick="filterSelection('nature')"> Automation Scripts</button>
+		  <button class="btn-sm" onclick="filterSelection('cars')"> Web Development</button>
+		  <button class="btn-sm" onclick="filterSelection('people')"> People</button>
+		</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row w-75 flex-center">
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+  
+<!-- END GRID -->
+</div>
 	</div>
 </section>
 <section id="resume">
@@ -161,11 +251,11 @@
 				</div>
 
 				<!-- Sidebar -->
-				<div id="sidebar">
-					<div class="inner">
+<!-- 				<div id="sidebar">
+					<div class="inner"> -->
 
 						<!-- Menu -->
-						<nav id="menu">
+						<!-- <nav id="menu">
 							<header class="major">
 								<h2>Menu</h2>
 							</header>
@@ -175,10 +265,10 @@
 								<li><a href="projects.html">Projects</a></li>
 								<li><a href="resume.html">Resume</a></li>
 							</ul>
-						</nav>
+						</nav> -->
 
 						<!-- Section -->
-						<section>
+						<!-- <section>
 							<header class="major">
 								<h2>Have a question or want to work together? Email me!</h2>
 							</header>
@@ -186,9 +276,9 @@
 								<li class="icon solid fa-envelope"><a href="mailto:asaleholland@gmail.com">asaleholland@gmail.com</a></li>
 								
 							</ul>
-							<h2>Or just leave me a message:</h2>
+							<h2>Or just leave me a message:</h2> -->
 							<!-- Contact Form -->
-						<form name='input' method="POST" action="https://formspree.io/f/mqkgyggv">
+						<!-- <form name='input' method="POST" action="https://formspree.io/f/mqkgyggv">
 							<label for="Name">Name: <br></label>
 							<input type="text" name="Name" placeholder="Your name" required>
 							<label for="_replyto">Email: <br></label>
@@ -204,16 +294,16 @@
 								<input type="hidden" name="_subject" value="Message on Personal Website">
 								<input type="hidden" name="_next" value="https://asa-leholland.github.io/thanks.html">
 							</form>
-						</section>
+						</section> -->
 
 						<!-- Footer -->
-						<footer id="footer">
+						<!-- <footer id="footer">
 							<p class="copyright">&copy; Asa LeHolland. All rights reserved. </p>
 							<p class="copyright"> Design modified from <a href="https://html5up.net">HTML5 UP</a>.</p>
 						</footer>
 
 					</div>
-				</div>
+				</div> -->
 
 			</div>
 
@@ -233,6 +323,7 @@
 
 			<!-- Navbar -->
 			<script src="assets/js/navbar.js"></script>
+			<script src="assets/js/project_filter.js"></script>
 
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
