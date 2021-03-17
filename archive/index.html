@@ -1,0 +1,578 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+<head>
+	<title>Asa LeHolland</title>
+	<meta charset="utf-8" />
+	<!-- <meta http-equiv="refresh" content="1" > -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Home page for the personal portfolio site for developer Asa LeHolland.">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/mailto.css" />
+	<link rel="icon" href="images/asa-leholland-logo.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+	<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+
+
+	    <link rel="stylesheet" href="assets/css/navbar.css">
+	    <link rel="stylesheet" href="assets/css/project_filter.css">
+	    <link rel="stylesheet" href="assets/css/gallery.css">
+	    <link rel="stylesheet" href="assets/css/portfolio.css">
+<!--     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> -->
+</head>
+<body class="is-preload">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light w-100 sticky-top ">
+  <a class="navbar-brand" href="#">Asa LeHolland</a>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+  	<div class="">
+	    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link hoverable topnav-centered smoothscroll" href="#home">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link hoverable topnav-centered smoothscroll" href="#projects">Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link hoverable topnav-centered smoothscroll" href="#resume">Resume</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link hoverable topnav-centered smoothscroll" href="#about">About</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link hoverable topnav-centered smoothscroll" href="#contact">Contact</a>
+		      </li>
+	     </ul>
+     </div>
+  </div>
+</nav>
+
+<section id="home">
+	<div class="row section-intro">
+		<div>Home</div>
+	</div>
+</section>
+<section id="projects">
+	<div class="row section-intro">
+		<div>Projects</div>
+<!-- 		<div>
+		  <button class="btn-sm active" onclick="filterSelection('all')"> Show All</button>
+		  <button class="btn-sm" onclick="filterSelection('nature')"> Automation Scripts</button>
+		  <button class="btn-sm" onclick="filterSelection('cars')"> Web Development</button>
+		  <button class="btn-sm" onclick="filterSelection('people')"> People</button>
+		</div> -->
+
+
+<div class="w-75 inner">
+	<div class="posts">
+		<article class='card'>
+
+			<a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="image"><img src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites" /></a>
+			<h3>Email Drafter</h3>
+			<p><b>Problem:</b> An environmental survey company referenced details on two proprietary websites to draft emails providing survey results to clients. A single email took between 5 to 20 minutes to draft. </p>
+			<p><b>Solution:</b> Developed a tool to scrape survey details and draft preliminary emails in Word. Supported 26 common email types and reduced average draft time to 5 minutes.  </p>
+			<div class='center'><p><em>Python: selenium, pandas, docx, pywin32</em></p></div>
+			<ul class="actions">
+				<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+			</ul>
+		</article>
+
+		<article>
+			<a href="https://github.com/asa-leholland/GRE-calculator" class="image"><img src="images/gre calc image.JPG" alt="Two calculators, one provided by GRE and one developed by Asa LeHolland" /></a>
+			<h3>GRE Calculator</h3>
+			<p><b>Problem:</b> The classic calculator used in the Graduate Records Exam was not easily and freely accessible, limiting the ability to practice using this tool. </p>
+			<p><b>Solution:</b> Undertook a personal project to design and develop an openly available application with the appearance and function of the classic GRE Calculator.</p>
+			<div class='center'><p><em>Python: Kivy</em></p></div>
+			<ul class="actions">
+				<li><a href="https://github.com/asa-leholland/GRE-calculator" class="button">CODE</a></li>
+			</ul>
+		</article>
+
+		<article>
+			<a href="https://github.com/asa-leholland/gess-strategy-game" class="image"><img src="images/gess.JPG" alt="Digital version of wood-patterned strategy board game with black and white player's pieces" /></a>
+			<h3>Gess</h3>
+			<p><b>Problem:</b> Gess is a strategy board game that combines features of Go and Chess. A free standalone version of the Gess board game was not found available for the PC.</p>
+			<p><b>Solution:</b> Designed and developed an open-source on-screen implementation of the Gess strategy game complete with move validation and endgame conditions.</p>
+			<div class='center'><p><em>Python: Kivy</em></p></div>
+			<ul class="actions">
+				<li><a href="https://github.com/asa-leholland/gess-strategy-game" class="button">CODE</a></li>
+			</ul>
+		</article>
+
+	</div>
+</div>
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="grid-container">
+
+
+	<ul id="filters" class="clearfix">
+	<li><span class="filter active" data-filter=".app, .card, .icon, .logo, .web">All</span></li>
+	<li><span class="filter" data-filter=".app">App</span></li>
+	<li><span class="filter" data-filter=".card">Card</span></li>
+	<li><span class="filter" data-filter=".icon">Icon</span></li>
+	<li><span class="filter" data-filter=".logo">Logo</span></li>
+	<li><span class="filter" data-filter=".web">Web</span></li>
+	</ul>
+
+	<div id="portfoliolist">
+  <div class="portfolio logo" data-cat="logo">
+    <div class="portfolio-wrapper">
+      <img data-src="img/portfolios/logo/5.jpg" alt="" />
+      <div class="label">
+        <div class="label-text">
+          <a class="text-title">Bird Document</a> 
+          <span class="text-category">Logo</span>
+        </div>
+        <div class="label-bg"> </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="portfolio logo" data-cat="logo">
+    <div class="portfolio-wrapper">
+      <img data-src="img/portfolios/logo/5.jpg" alt="" />
+      <div class="label">
+        <div class="label-text">
+          <a class="text-title">Bird Document</a> 
+          <span class="text-category">Logo</span>
+        </div>
+        <div class="label-bg"> </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="portfolio logo" data-cat="logo">
+    <div class="portfolio-wrapper">
+      <img data-src="img/portfolios/logo/5.jpg" alt="" />
+      <div class="label">
+        <div class="label-text">
+          <a class="text-title">Bird Document</a> 
+          <span class="text-category">Logo</span>
+        </div>
+        <div class="label-bg"> </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="portfolio logo" data-cat="logo">
+    <div class="portfolio-wrapper">
+      <img data-src="img/portfolios/logo/5.jpg" alt="" />
+      <div class="label">
+        <div class="label-text">
+          <a class="text-title">Bird Document</a> 
+          <span class="text-category">Logo</span>
+        </div>
+        <div class="label-bg"> </div>
+      </div>
+    </div>
+  </div>
+
+ </div>
+
+<!--  <div class="container">
+        <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="gallery-title">Gallery</h1>
+        </div>
+
+        <div id="myBtnContainer">
+            <button class="btn-sm btn-default filter-button" data-filter="all">Show All</button>
+            <button class="btn-sm btn-default filter-button" data-filter="hdpe">Automation Scripts</button>
+            <button class="btn-sm btn-default filter-button" data-filter="sprinkle">Web Development</button>
+            <button class="btn-sm btn-default filter-button" data-filter="spray">Spray Nozzle</button>
+            <button class="btn-sm btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
+        </div>
+        <br/>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+			  	<div class="card" style="width: 18rem;">
+			  		<a href="" class="image">
+			  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+			  		</a>
+				  <div class="card-body">
+				    <h5 class="card-title">Email Drafter</h5>
+				    <ul class="actions">
+						<li><a href="" class="button">DETAILS</a></li>
+						<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+
+			<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+			  	<div class="card" style="width: 18rem;">
+			  		<a href="" class="image">
+			  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+			  		</a>
+				  <div class="card-body">
+				    <h5 class="card-title">Email Drafter</h5>
+				    <ul class="actions">
+						<li><a href="" class="button">DETAILS</a></li>
+						<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+			  	<div class="card" style="width: 18rem;">
+			  		<a href="" class="image">
+			  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+			  		</a>
+				  <div class="card-body">
+				    <h5 class="card-title">Email Drafter</h5>
+				    <ul class="actions">
+						<li><a href="" class="button">DETAILS</a></li>
+						<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+
+			<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+			  	<div class="card" style="width: 18rem;">
+			  		<a href="" class="image">
+			  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+			  		</a>
+				  <div class="card-body">
+				    <h5 class="card-title">Email Drafter</h5>
+				    <ul class="actions">
+						<li><a href="" class="button">DETAILS</a></li>
+						<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="" class="img-responsive">
+            </div>
+        </div> -->
+    </div>
+
+<!-- 
+<div class="row w-75 flex-justify-center">
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+  <div class="column nature">
+  	<div class="card" style="width: 18rem;">
+  		<a href="" class="image">
+  			<img class="card-img-top image" src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites">
+  		</a>
+	  <div class="card-body">
+	    <h5 class="card-title">Email Drafter</h5>
+	    <ul class="actions">
+			<li><a href="" class="button">DETAILS</a></li>
+			<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div> -->
+
+  
+
+</div>
+</div>
+<!-- END GRID -->
+
+	</div>
+</section>
+<section id="resume">
+	<div class="row section-intro">
+		<div>Resume</div>
+	</div>
+</section>
+<section id="about">
+	<div class="row section-intro">
+		<div>About</div>
+	</div>
+</section>
+<section id="contact">
+	<div class="row section-intro">
+		<div>Contact</div>
+	</div>
+</section>
+
+
+<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>Asa LeHolland</strong> - asaleholland@gmail.com </a>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/asa-holland-a2a0b5b7/" class="icon brands fa-linkedin" alt="logo for LinkedIn, website widely used professional networking"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/asa-leholland" class="icon brands fa-github" alt="logo for GitHub, website widely used for sharing code"><span class="label">GitHub</span></a></li>
+					</ul>
+				</header>
+
+				<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Hello world, I’m Asa.</h2>
+							<p>I WRITE CODE - HERE IS SOME OF MY WORK</p>
+						</header>
+					</section>
+
+
+					<!-- Section -->
+					<section>
+						<header class="major">
+							<h2>Highlighted Projects</h2>
+						</header>
+						<div class="posts">
+							<article class='card'>
+
+								<a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="image"><img src="images/prelim-image.JPG" alt="redacted text file showing connections being made to websites" /></a>
+								<h3>Email Drafter</h3>
+								<p><b>Problem:</b> An environmental survey company referenced details on two proprietary websites to draft emails providing survey results to clients. A single email took between 5 to 20 minutes to draft. </p>
+								<p><b>Solution:</b> Developed a tool to scrape survey details and draft preliminary emails in Word. Supported 26 common email types and reduced average draft time to 5 minutes.  </p>
+								<div class='center'><p><em>Python: selenium, pandas, docx, pywin32</em></p></div>
+								<ul class="actions">
+									<li><a href="content/Sample Redacted Preliminary Email Results.docx" download="Sample Redacted Preliminary Email Results" class="button">DEMO</a></li>
+								</ul>
+							</article>
+
+							<article>
+								<a href="https://github.com/asa-leholland/GRE-calculator" class="image"><img src="images/gre calc image.JPG" alt="Two calculators, one provided by GRE and one developed by Asa LeHolland" /></a>
+								<h3>GRE Calculator</h3>
+								<p><b>Problem:</b> The classic calculator used in the Graduate Records Exam was not easily and freely accessible, limiting the ability to practice using this tool. </p>
+								<p><b>Solution:</b> Undertook a personal project to design and develop an openly available application with the appearance and function of the classic GRE Calculator.</p>
+								<div class='center'><p><em>Python: Kivy</em></p></div>
+								<ul class="actions">
+									<li><a href="https://github.com/asa-leholland/GRE-calculator" class="button">CODE</a></li>
+								</ul>
+							</article>
+
+							<article>
+								<a href="https://github.com/asa-leholland/gess-strategy-game" class="image"><img src="images/gess.JPG" alt="Digital version of wood-patterned strategy board game with black and white player's pieces" /></a>
+								<h3>Gess</h3>
+								<p><b>Problem:</b> Gess is a strategy board game that combines features of Go and Chess. A free standalone version of the Gess board game was not found available for the PC.</p>
+								<p><b>Solution:</b> Designed and developed an open-source on-screen implementation of the Gess strategy game complete with move validation and endgame conditions.</p>
+								<div class='center'><p><em>Python: Kivy</em></p></div>
+								<ul class="actions">
+									<li><a href="https://github.com/asa-leholland/gess-strategy-game" class="button">CODE</a></li>
+								</ul>
+							</article>
+
+						</div>
+					</section>
+
+					<section>
+						<div class="posts">
+							<div class="footer">
+								<article class="footer">
+									<h3>Want to see more work?</h3>
+									<ul class="actions">
+										<li><a href="projects.html" class="button">MORE PROJECTS</a></li>
+									</ul>
+								</article>
+							</div>
+
+						</section>
+
+					</div>
+				</div>
+
+				<!-- Sidebar -->
+<!-- 				<div id="sidebar">
+					<div class="inner"> -->
+
+						<!-- Menu -->
+						<!-- <nav id="menu">
+							<header class="major">
+								<h2>Menu</h2>
+							</header>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Asa</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="resume.html">Resume</a></li>
+							</ul>
+						</nav> -->
+
+						<!-- Section -->
+						<!-- <section>
+							<header class="major">
+								<h2>Have a question or want to work together? Email me!</h2>
+							</header>
+							<ul class="contact">
+								<li class="icon solid fa-envelope"><a href="mailto:asaleholland@gmail.com">asaleholland@gmail.com</a></li>
+								
+							</ul>
+							<h2>Or just leave me a message:</h2> -->
+							<!-- Contact Form -->
+						<!-- <form name='input' method="POST" action="https://formspree.io/f/mqkgyggv">
+							<label for="Name">Name: <br></label>
+							<input type="text" name="Name" placeholder="Your name" required>
+							<label for="_replyto">Email: <br></label>
+							<input type="email" name="_replyto" placeholder="Your email" required>
+							<label for="message">Message: <br></label>
+							<textarea name="message" placeholder="Type your message" required></textarea>
+
+								<ul class="actions message">
+									<input type="submit" name="submit">
+								</ul>
+
+								
+								<input type="hidden" name="_subject" value="Message on Personal Website">
+								<input type="hidden" name="_next" value="https://asa-leholland.github.io/thanks.html">
+							</form>
+						</section> -->
+
+						<!-- Footer -->
+						<!-- <footer id="footer">
+							<p class="copyright">&copy; Asa LeHolland. All rights reserved. </p>
+							<p class="copyright"> Design modified from <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</footer>
+
+					</div>
+				</div> -->
+
+			</div>
+
+
+
+    </div>
+  </div>
+</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/email.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<!-- Navbar -->
+			<script src="assets/js/navbar.js"></script>
+			<script src="assets/js/project_filter.js"></script>
+
+			<!-- gallery -->
+			<script src="assets/js/gallery.js"></script>
+
+			<!-- Filter Projects -->
+			<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+			<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+		</body>
+		</html>
