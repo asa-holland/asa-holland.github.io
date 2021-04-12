@@ -1909,6 +1909,7 @@ header .logo a {
 }
 .popup-modal .description-box h4 {
 	font-family: "poppins-bold", sans-serif;
+	text-align: center;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 	margin-bottom: .6rem;
@@ -1918,17 +1919,28 @@ header .logo a {
 	font-size: 1.4rem;
 	line-height: 2.4rem;
 	margin-bottom: 12px;
+	text-align: justify;
 }
 .popup-modal .categories {
 	font-family: "poppins-bold", sans-serif;
+	text-align: center;
 	font-size: 1.1rem;
 	line-height: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
 	display: block;
-	text-align: left;
 	color: rgba(0, 0, 0, 0.5);
 }
+
+.popup-modal .components {
+	/*font-family: "poppins-bold", sans-serif;*/
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	letter-spacing: .1rem;
+	display: block;
+	text-align: center;
+}
+
 .popup-modal .link-box {
 	width: 100%;
 	overflow: hidden;
