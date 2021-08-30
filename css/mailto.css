@@ -6,6 +6,7 @@
 .mailto-link {
 	position: relative;
 	padding: 8px 0;
+	color: white;
 }
 .mailto-message {
 	top: 1px;
@@ -42,4 +43,9 @@
 .mailto-link:focus .mailto-message,
 .mailto-link:focus-within .mailto-message {
 	display: block;
+}
+
+
+a .mailto-link {
+	color: white !important;
 }
