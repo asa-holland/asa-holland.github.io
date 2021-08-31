@@ -1388,13 +1388,45 @@ header .logo a {
 }
 .intro-content .button::after {
 	display: inline-block;
-	content: "\f107";
+	content: "\f063";
 	font-family: fontAwesome;
 	font-size: 1.6rem;
 	line-height: inherit;
 	text-align: center;
 	position: relative;
 	left: 1.2rem;
+}
+
+.section-intro .button::after {
+	display: inline-block;
+	content: "\f063";
+	font-family: fontAwesome;
+	font-size: 1.6rem;
+	line-height: inherit;
+	text-align: center;
+	position: relative;
+	left: 1.2rem;
+}
+
+.section-contact .button::after {
+	display: inline-block;
+	content: "\f063";
+	font-family: fontAwesome;
+	font-size: 1.6rem;
+	line-height: inherit;
+	text-align: center;
+	position: relative;
+	left: 1.2rem;
+}
+
+#download_resume_btn {
+	display: inline-block;
+	font-family: fontAwesome;
+	font-size: 1.6rem;
+	line-height: inherit;
+	text-align: center;
+	position: relative;
+	left: 1.2rem; 
 }
 
 .intro-social {
