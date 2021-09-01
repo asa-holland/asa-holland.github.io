@@ -90,8 +90,7 @@ body {
     transition: none !important; }
 
 /* Type */
-body, input, select, textarea {
-  color: #000000;
+body, input, select, textarea :not(.email_text){
   font-family: "Rubik", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -106,6 +105,11 @@ body, input, select, textarea {
     body, input, select, textarea {
       font-size: 9pt; } }
 
+
+body, input, select, textarea :not(.email_text){
+  color: #ffffff;
+ }
+
 a {
   -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -119,6 +123,10 @@ a {
     color: #8c34eb !important; }
     a:hover strong {
       color: inherit; }
+
+.email_text {
+        color: #ffffff !important;
+      }
 
 strong, b {
   color: #3d4449;
@@ -2340,3 +2348,5 @@ button,
   display: flex;
   justify-content: center;
 }
+
+
