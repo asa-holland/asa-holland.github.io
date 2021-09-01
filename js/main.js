@@ -140,6 +140,9 @@
    var toggleButton = $('.menu-toggle'),
        nav = $('.main-navigation');
 
+
+      var topBar = $('.top-bar');
+
    // toggle button
    toggleButton.on('click', function(e) {
 
@@ -154,8 +157,11 @@
 
    	// update the toggle button 		
    	toggleButton.toggleClass('is-clicked'); 
+   	topBar.toggleClass('is-expanded');
    	// fadeout the navigation panel
-   	nav.fadeOut();   		
+   	nav.fadeOut();  
+
+   	 		
    	     
   	});
 

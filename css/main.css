@@ -1110,12 +1110,18 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 80px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
 	top: 0;
 }
+
+
+header .is-expanded {
+	min-width: 200px;
+}
+
 header .logo {
 	float: left;
 	margin-left: 20px;
@@ -1246,7 +1252,7 @@ header .logo a {
 	background: #000000;
 	padding: 24px 30px 42px;
 	margin: 0;
-	width: 100%;
+	width: 300%;
 	height: auto;
 	clear: both;
 	display: none;
