@@ -1,0 +1,31 @@
+.center
+{
+	margin: auto;
+  width: 50%;
+}
+
+
+.filters
+{
+	display:  flex;
+	margin-bottom: 10px;
+}
+
+.filters li
+{
+	font-family: "poppins-semibold", sans-serif;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	list-style: none;
+	background: #eee;
+	padding: 8px 20px;
+	margin: 5px;
+	
+}
+
+
+.filters li.active
+{
+	background: #8c34eb;
+	color:  white;
+}
