@@ -46,6 +46,12 @@
 }
 
 
-a .mailto-link {
-	color: white !important;
+
+.always-white {
+	color:  white;
+}
+
+.always-white:hover, .always-white:focus, .always-white:active {
+	color: #8c34eb;
+	outline: 0;
 }
