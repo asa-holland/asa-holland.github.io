@@ -2635,3 +2635,9 @@ footer .copyright span:last-child::after {
 	color:  black !important;
 	font-family: "lora-regular", serif;
 }
+
+
+.half-height {
+	height: 50%;
+	width: 50%;
+}

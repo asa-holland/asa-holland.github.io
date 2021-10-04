@@ -20,13 +20,15 @@
    <link rel="stylesheet" href="css/base.css">  
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/vendor.css">
-   <link rel="stylesheet" href="css/filters.css">  
+   <!-- <link rel="stylesheet" href="css/filters.css">   -->
    <link rel="stylesheet" href="css/mailto.css">    
+   <!-- <link rel="stylesheet" href="css/project_filter.css">     -->
 
    <!-- script
    ================================================== -->   
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+
 
    <!-- favicons
     ================================================== -->
@@ -111,7 +113,7 @@
 
 
     <!-- Filter options -->
-    <div class='center'>
+<!--     <div class='center'>
         <ul class='filters'>
             <li class="list active" data-filter="all">All</li>
             <li class="list" data-filter="webdev">Web Development</li>
@@ -120,18 +122,18 @@
             <li class="list" data-filter="desktop">Desktop Apps</li>
             <li class="list" data-filter="hackathon">Hackathons</li>
         </ul>
-    </div>
+    </div> -->
 
 
+    <div class="row">
 
-    <div class="row portfolio-content">
+        <div class="col-twelve">
 
-        <div class="">
+          <!-- portfolio-wrapper  -->
+          <!-- <div>class="block-half" </div> -->
+          <div id="" class="block-1-2 block-mob-full stack">
 
-          <!-- portfolio-wrapper -->
-          <div id="" class="block-half block-mob-full stack">
-
-            <div class="bgrid folio-item webdev hackathon">
+            <div class="bgrid half-height folio-item webdev hackathon">
               <div class="item-wrap">
                 <img src="images/portfolio/minerva.JPG" alt="Minerva Music App">
                 <a href="#modal-minerva" class="overlay">                                 
@@ -156,32 +158,7 @@
               </div>                  
             </div> <!-- /folio-item -->
 
-            <div class="bgrid folio-item webdev">
-              <div class="item-wrap">
-                <img src="images/portfolio/cimdb.jpg" alt="browser tool for computer inventory management">
-                <a href="#modal-cimdb" class="overlay">                                 
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Computer Inventory Management Database</h3>                              
-                      <span class="folio-types">
-                        <span class="folio-types">
-                          Web Development   
-                        </span> 
-                        <div>
-                          <span class="folio-types">
-                            <div>Frontend - Bootstrap</div>
-                            <div>Backend - Python: Flask</div>
-                            <div>Database - MySQL, PostGreSQL</div>
-                          </span>
-                        </div>
-                      </span>
-                    </div>                           
-                  </div>                    
-                </a>
-              </div>                  
-            </div> <!-- /folio-item -->
-
-                <div class="bgrid folio-item webdev hackathon">
+                <div class="bgrid half-height folio-item webdev hackathon">
                    <div class="item-wrap">
                     <img src="images/portfolio/beaver_budgets.JPG" alt="web browser budgeting tool">
                       <a href="#modal-beaver-budgets" class="overlay">                                  
@@ -208,7 +185,34 @@
                    </div>                  
                     </div> <!-- /folio-item -->
 
-                <div class="bgrid folio-item webdev hackathon">
+            <div class="bgrid half-height folio-item webdev">
+              <div class="item-wrap">
+                <img src="images/portfolio/cimdb.jpg" alt="browser tool for computer inventory management">
+                <a href="#modal-cimdb" class="overlay">                                 
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Computer Inventory Management Database</h3>                              
+                      <span class="folio-types">
+                        <span class="folio-types">
+                          Web Development   
+                        </span> 
+                        <div>
+                          <span class="folio-types">
+                            <div>Frontend - Bootstrap</div>
+                            <div>Backend - Python: Flask</div>
+                            <div>Database - MySQL, PostGreSQL</div>
+                          </span>
+                        </div>
+                      </span>
+                    </div>                           
+                  </div>                    
+                </a>
+              </div>                  
+            </div> <!-- /folio-item -->
+
+
+
+                <div class="bgrid half-height folio-item webdev hackathon">
                    <div class="item-wrap">
                     <img src="images/portfolio/flash-learning.JPG" alt="Flash Learning">
                       <a href="#modal-flash-learning" class="overlay">                                 
@@ -235,7 +239,7 @@
                    </div>                  
                     </div> <!-- /folio-item -->
 
-                    <div class="bgrid folio-item scripting scraping">
+                    <div class="bgrid half-height folio-item scripting scraping">
                    <div class="item-wrap">
                     <img src="images/portfolio/prelim-image.JPG" alt="Email Drafter">
                     <a href="#modal-email-drafter" class="overlay">                                      
@@ -257,7 +261,7 @@
                    </div>
                     </div> <!-- /folio-item -->
 
-                <div class="bgrid folio-item webdev">
+                <div class="bgrid half-height folio-item webdev">
                    <div class="item-wrap">
                     <img src="images/portfolio/ncnp.JPG"alt="Nevada County Native Plants">
                       <a href="#modal-ncnp" class="overlay">                                    
@@ -279,7 +283,7 @@
                    </div>
                     </div> <!-- /folio-item -->
 
-                <div class="bgrid folio-item desktop">
+                <div class="bgrid half-height folio-item desktop">
                    <div class="item-wrap">
                     <img src="images/portfolio/gre calc image.JPG" alt="GRE Calculator">
                       <a href="#modal-gre-calculator" class="overlay">                                       
@@ -301,7 +305,7 @@
                    </div>
                     </div> <!-- /folio-item -->     
 
-                    <div class="bgrid folio-item desktop">
+                    <div class="bgrid half-height folio-item desktop">
                    <div class="item-wrap">
                     <img src="images/portfolio/gess.JPG" alt="Gess">
                       <a href="#modal-gess" class="overlay">                                    
@@ -323,7 +327,7 @@
                    </div>
                     </div> <!-- /folio-item -->
 
-                    <div class="bgrid folio-item scripting">
+                    <div class="bgrid half-height folio-item scripting">
                         <div class="item-wrap">
                             <img src="images/portfolio/example-use-folder-cloner.JPG" alt="Folder duplication">
                             <a href="#modal-folder-cloner" class="overlay">
@@ -346,7 +350,7 @@
                     </div> <!-- /folio-item -->   
 
 
-            <div class="bgrid folio-item scripting">
+            <div class="bgrid half-height folio-item scripting">
                    <div class="item-wrap">
                     <img src="images/portfolio/comment-parser.JPG" alt="Comment Parser">
                       <a href="#modal-comment-parser" class="overlay">                                 
@@ -681,7 +685,7 @@
 
         </div>  <!-- /twelve -->   
 
-    </div> <!-- /portfolio-content --> 
+    </div>
         
     </section> <!-- /portfolio --> 
 

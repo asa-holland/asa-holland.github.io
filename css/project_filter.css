@@ -1,0 +1,39 @@
+
+
+.filter-button
+{
+    font-family: "poppins-semibold", sans-serif;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    list-style: none;
+    padding: 8px 20px;
+    /*margin: 5px;*/
+
+}
+.filter-button:hover
+{
+    font-family: "poppins-semibold", sans-serif;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    border: 1px solid black;
+    text-align: center;
+    color: #ffffff;
+    background-color: #8c34eb;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #8c34eb !important;
+    color: white;
+}
+
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
